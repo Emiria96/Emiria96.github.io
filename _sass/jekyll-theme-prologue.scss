@@ -63,7 +63,7 @@
 	body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -110,7 +110,7 @@
 		margin: 0 0 2em 0;
 
 		> p {
-			margin: 1em 0 0 0;
+			margin: 0.5em 0 0 0;
 		}
 	}
 
@@ -162,14 +162,14 @@
 		border-color: rgba(0, 0, 0, 0.2);
 		border-radius: 4px;
 		font-family: "Courier New", monospace;
-		font-size: 0.9em;
+		font-size: 0.8em;
 		padding: 0.25em 0.325em;
 	}
 
 	pre {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Courier New", monospace;
-		font-size: 0.9em;
+		font-size: 0.6em;
 		tab-size: 4;
 		margin: 0 0 2em 0;
 		code {
@@ -660,6 +660,14 @@
 				p {
 					font-style: italic;
 				}
+			}
+			p {
+				font-size: 0.8em;
+				padding: 0.1em 0 0 0;
+				margin: 0.1em 0 0 0;
+			}
+			ul, ol, dl, table {
+				font-size: 0.8em;
 			}
 		}
 		> section, article {

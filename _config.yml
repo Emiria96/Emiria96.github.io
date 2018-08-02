@@ -42,6 +42,9 @@ avatar: assets/images/avatar.jpg
 port: 5001
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: coderay
 
 # Pagination
 # paginate: 10
